@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Booki</title>
+</head>
+
+<body>
+
+    <!-- En-Tête -->
+    <header>
+        <div class="container">
+            <nav class="barNav">
+                <div class="flexBetweenNav">
+
+                    <div class="logoBooki"><img src="./images/logo/Booki.png" alt="logo Booki" width="100"
+                            height="50">
+                    </div>
+
+                    <div class=" flexBetweenNav12 spacingLinks flexAround">
+
+                        <div class="sizeLinks flexCenterNav borderNav active">
+                            <div class="sizeLinksMobil">
+                                <a class="colorBlue discorationLink" href="#hebergements">Hébergements</a>
+                            </div>
+                        </div>
+
+                        <div class="sizeLinks flexCenterNav borderNav">
+                            <div class="sizeLinksMobil">
+                                <a class="colorVisitedMenu discorationLink " href="#activités">Activités</a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <!-- Contenu / RECHERCHE -->
+        <section>
+            <div class="container">
+                <div class="find">
+                    <h1 style="margin: unset;">Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+                </div>
+                <div class="researchBox">
+                    <div class="iconLocation">
+                        <i class="fas fa-map-marker-alt backGrey"></i>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Marseille, France" class="researchBar paddingText borderNone">
+                        <button class="buttonResearch" id="buttonResearch">Rechercher</button>
+                        <button class="buttonResearch searchFormSubmitinputIcon fas fa-search" id="iconGlass"></button>
+                    </form>
+
+                </div>
+
+                <!--Contenu / FILTRES-->
+                
+                <div class="filters">
+                    <h3 style="margin-bottom: 0px;">Filtres</h3>
+                    <ul class="filtersList">
+                        <li class="filtersButton"><i class="fas fa-money-bill-wave icon-filter"></i>Économique</li>
+                        <li class="filtersButton"><i class="fas fa-child icon-filter"></i>Familial</li>
+                        <li class="filtersButton"><i class="fas fa-heart icon-filter"></i>Romantique</li>
+                        <li class="filtersButton"><i class="fas fa-dog icon-filter"></i>Animaux autorisés</li>
+                    </ul>
+                </div>
+                
+
+
+                <div class="flexStartLog  findLine">
+                    <div class="cercleIcon flexCenter">
+                        <i class="fas fa-info fa-xs iconInfo "></i>
+                        <!--"fa-xs" sur icone pour en réduire la taille-->
+                    </div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!--Contenu / HERBEGEMENT A MARSEILLE-->
+        <section>
+            <div class="container">
+                <div class="flexAroundHeberg">
+                    <div class="caseHeberg blockHeberg ">
+
+                        <div class="hebergTitle">
+                            <h2 id="hebergements">Hébergements à Marseille</h2>
+                        </div>
+                        <div class="blockHeberg flexBetween">
+
+                            <!--colonne 1-->
+                            <div class="caseHebergSolo flexColumnCenter">
+                                <div class="imgHeberg1"></div>
+                                <div class="caseDescription">
+                                    <h3>Auberge de la Cannebière</h3>
+                                    <p>Nuit à partir de <strong>25€</strong></p>
+                                    <div class="stars">
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorGrey"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="caseHebergSolo flexColumnCenter">
+                                <div class="imgHeberg2"></div>
+                                <div class="caseDescription">
+                                    <h3>Hôtel du port</h3>
+                                    <p>Nuit à partir de 52<strong>€</strong></p>
+                                    <div class="stars">
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="caseHebergSolo flexColumnCenter">
+                                <div class="imgHeberg3"></div>
+                                <div class="caseDescription">
+                                    <h3>Hôtel des mouettes</h3>
+                                    <p>Nuit à partir de 76<strong>€</strong></p>
+                                    <div class="stars">
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorGrey"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--colonne 2-->
+
+                            <div class="caseHebergSolo flexColumnCenter">
+                                <div class="imgHeberg4"></div>
+                                <div class="caseDescription">
+                                    <h3>Hôtel de la mer</h3>
+                                    <p>Nuit à partir de 46<strong>€</strong></p>
+                                    <div class="stars">
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorGrey"></i>
+                                        <i class="fas fa-star colorGrey"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="caseHebergSolo flexColumnCenter">
+                                <div class="imgHeberg5"></div>
+                                <div class="caseDescription">
+                                    <h3>Auberge Le Panier</h3>
+                                    <p>Nuit à partir de <strong>23€</strong></p>
+                                    <div class="stars">
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorGrey"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="caseHebergSolo flexColumnCenter">
+                                <div class="imgHeberg6"></div>
+                                <div class="caseDescription">
+                                    <h3>Hôtel chez Amina</h3>
+                                    <p>Nuit à partir de 96<strong>€</strong></p>
+                                    <div class="stars">
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                        <i class="fas fa-star colorBlue"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <a class="discorationLink colorVisitedMenu" href="#">
+                                <h3 id="afficher">Afficher plus</h3>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!--CONTENU / POPULAIRES-->
+                    <div class="blockPop">
+                        <div class="popTitle flexBetween">
+                            <h2>Les plus populaires</h2>
+                            <i class="fas fa-chart-line fa-lg popIcon"></i>
+                        </div>
+                        <div class="flexCenter casePop casePop12">
+                            <div class="imgPop1"></div>
+                            <div class="casePopSolo">
+                                <h3>Hôtel Le soleil du <br> matin</h3>
+                                <p>Nuit à partir de 128<strong>€</strong></p>
+                                <div class="stars">
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flexCenter casePop casePop12">
+                            <div class="imgPop2"></div>
+                            <div class="casePopSolo">
+                                <h3>Au cœur de l'eau <br> Chambres d'hôtes </h3>
+                                <p>Nuit à partir de 71<strong>€</strong></p>
+                                <div class="stars">
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorGrey"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flexCenter casePop">
+                            <div class="imgPop3"></div>
+                            <div class="casePopSolo">
+                                <h3>Hôtel Tout bleu et <br>Blanc</h3>
+                                <p>Nuit à partir de 68<strong>€</strong></p>
+                                <div class="stars">
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorBlue"></i>
+                                    <i class="fas fa-star colorGrey"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--CONTENU / ACTIVITES-->
+        <section class="activity">
+            <div class="container">
+                <!--activité 1-->
+                <h2 id="activités">Activités à Marseille</h2>
+                <div class="blockActivity flexBetweenActi">
+                    <div class="caseActivity flexColumnCenter">
+                        <div class="imgActivity1"></div>
+                        <div class="activityTitlePlace activityTitle">
+                            <h3>Vieux port</h3>
+                        </div>
+                    </div>
+
+                    <!--activités 2-->
+                    <div class="blockActivity2356 flexComlumnBetween">
+
+                        <div class="caseActivity23 flexColumnCenter">
+                            <div class="imgActivity2"></div>
+                            <div class="activityTitlePlace activityTitle">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </div>
+
+                        <!--activités 3-->
+                        <div class="caseActivity23 flexColumnCenter">
+                            <div class="imgActivity3"></div>
+                            <div class="activityTitlePlace activityTitle">
+                                <h3>Îles du Frioul</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--activité 4-->
+                    <div class="caseActivity flexColumnCenter">
+                        <div class="imgActivity4"></div>
+                        <div class="activityTitlePlace activityTitle">
+                            <h3>Parc National des Calanques</h3>
+                        </div>
+                    </div>
+                    <!--activité 5-->
+                    <div class="blockActivity2356 flexComlumnBetween">
+
+                        <div class="caseActivity56 flexColumnCenter">
+                            <div class="imgActivity5"></div>
+                            <div class="activityTitlePlace activityTitle">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </div>
+
+                        <!--activité 6-->
+                        <div class="caseActivity56 flexColumnCenter">
+                            <div class="imgActivity6"></div>
+                            <div class="activityTitlePlace activityTitle">
+                                <h3>Parc Longchamps</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <!--Pied de page-->
+    <footer>
+        <div class="container">
+
+            <div class="footer flexBetweenFooter backGrey">
+                <div class="sizeFooterBlock marginFooterBlock1">
+                    <h3>A propos</h3>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Fonctionnement du site</p>
+                    </a>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Conditions générales de vente</p>
+                    </a>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Données de confidentialité</p>
+                    </a>
+                </div>
+
+                <div class="sizeFooterBlock">
+                    <h3>Nos hébergements</h3>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Charte qualité</p>
+                    </a>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Soumettre votre hôtel</p>
+                    </a>
+                </div>
+
+                <div class="sizeFooterBlock marginFooterBlock2">
+                    <h3>Assistance</h3>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Centre d'aide</p>
+                    </a>
+                    <a class="discorationLink colorVisitedMenu" href="#">
+                        <p>Nous contacter</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

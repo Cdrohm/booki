@@ -1,0 +1,1119 @@
+/* {
+    border: 1px solid red;
+}*/
+.html, body{
+    font-family: Raleway;
+    margin: 0px; 
+}
+
+.h1{
+    margin: 0;
+}
+
+.textBold{
+    font-weight: bold;
+}
+
+/*Couleurs texte*/
+.colorGrey{
+    color: #F2F2F2;
+}
+
+.colorBlue{
+    color: #0065fc;
+}
+
+.colorBlueLight{
+    color: #DEEBFF;
+}
+
+/*Couleurs fonds*/
+.backBlue{
+    background-color: #0065fc;
+}
+
+.backBlueLight{
+    background-color: #DEEBFF;
+}
+
+.backGrey{
+    background-color: #F2F2F2;
+}
+
+.container{
+    max-width: 1390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*FLEX*/
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*FLEX colonne*/
+.flexColumnCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.flexColumnStart{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flexColumnAround{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.flexColumnBetween{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/*Menu général nav*/
+
+.logoBooki{
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+}
+
+.flexBetweenNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flexCenterNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.spacingLinks{
+    width: 25%;
+}
+
+.discorationLink{
+    text-decoration: none;
+}
+
+
+.colorVisitedMenu{
+    color: black;
+}
+
+.sizeLinks{
+    width: 120px;
+    height: 99px;
+}
+
+.borderNav{
+    border-top: 1px solid transparent;
+}
+ /*barre bleu au dessus du menu nav au survol*/
+.borderNav:hover, .active{
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+/*changement de couleur en bleu de menu nav au survol*/
+.borderNav:hover > a{
+    color: #0065fc;
+}
+
+.borderNavInvisible{
+    border-top: 1px solid transparent;
+}
+.barNav{
+    height: 100px;
+}
+
+
+
+/*Pied de page (footer)*/
+.footer{
+    height: 300px;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.flexBetweenFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sizeFooterBlock{
+    height: 150px;
+}
+
+.marginFooterBlock1{
+    margin-left: 5%;
+}
+
+.marginFooterBlock2{
+    margin-right: 15%;
+}
+
+
+/*contenu / RECHERCHE*/
+.researchBox {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+.iconLocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+}
+
+.buttonResearch {
+    border: none;
+    border-radius: 0 15px 15px 0;
+    background-color: #0065fc;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 17px;
+    cursor: pointer;
+
+    
+}
+
+.paddingText {
+    padding-left: 20px;
+}
+
+
+#iconGlass {
+    display: none;
+}
+
+/*PAS DE . POUR INPUT*/
+input:focus {
+    outline: none;
+    font-weight: 600;
+
+}
+
+input:-moz-placeholder { color: black; opacity:1;}
+input::-moz-placeholder { color: black; opacity:1;}
+
+.researchBar {
+    padding: 0 0 0 20px;
+    height: 50px;
+    width: 220px;
+    border: none;
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+}
+
+.researchBar::placeholder {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Raleway;
+
+}
+
+
+
+.fa-map-marker-alt {
+    font-size: 17px;
+}
+
+
+.borderNoneFrom {
+    outline: none;
+    border: none;
+}
+
+
+.borderNone{
+    border: none;
+   
+}
+
+.iconSize {
+    height: 50px;
+    width: 80px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+
+/*Changement du bouton recherche au survol */
+.buttonResearch:hover {
+    color: #0065fc;
+    background-color: #DEEBFF;
+}
+.paddingText {
+    padding-left: 20px;
+}
+
+
+
+/*Contenu / FILTRES*/
+.filters ul {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.filters ul li {
+    display: inline;
+    margin-left: 25px;
+    font-weight: 700;
+    border: solid 2px #e2e2e2;
+    padding: 0 20px 0 0;
+    margin-top: 10px;
+    border-radius: 200px;
+    }
+
+.filters ul li:hover {
+    cursor: pointer;
+    background: #DEEBFF;
+    transition-duration: 0.20s;
+}
+
+.filters ul li:hover .icon-filter {
+    background: white;
+    transition-duration: 0.20s;
+}
+
+.icon-filter {
+    background-color: #DEEBFF;
+    color: #0065fc;
+    padding: 18px;
+    border-radius: 200px;
+    margin-right: 15px;
+}
+
+
+.borderFilters {
+    height: 50px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px; 
+    margin-right: 20px;
+}
+
+.borderFilters:hover > .filtersText {           /* signe ">" pour passage =survol du lien filtre */
+    color: #0065fc;
+    
+    
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.borderFilters:hover > .filtersIcons {          /* survol de l'icone => changement de couleur + effet zoom*/
+    color: white;
+    background-color: #0065fc;
+        
+    
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    
+}
+
+.flexBetweenFilters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marginFilters {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+.marginFiltersTitle {
+    margin-right: 20px;
+}
+
+
+.filtersIcons {
+    margin-left: -2px;      /*-2px pour le décalage sur bordure*/
+    border-radius: 25px;
+    width: 50px;            
+    height: 50px;
+    color: #0065fc;
+    background-color: #DEEBFF;
+}
+
+.filtersText {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.flexStartLog {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+/*test filtres en liste*/
+.listFilters {
+    list-style-type: none;
+}
+
+
+/*CONTENU INFORMATION*/
+.iconInfo {
+    display: flex;
+    align-items: center;
+    color: #0065fc;
+}
+
+.cercleIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    margin-right: 5px;
+
+}
+
+
+/*CONTENU HEBERGEMENT*/
+.flexAroundHeberg {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.caseHeberg {
+    
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    flex: 2;
+    margin-right: 20px;
+
+}
+
+.caseHebergSolo {
+    width: 30%;
+    
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #e9e8e8;
+    line-height: 2px;
+    white-space:nowrap; 
+    overflow:hidden;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+/*zoom survol*/
+.caseHebergSolo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.blockHeberg {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.blockHeberg2 {
+    margin-top: 10px;
+}
+
+.caseDescription {
+    width: 95%;
+    margin: 5px;
+}
+
+.caseDescription p {
+    display: inline-block;
+}
+
+.caseDescription h3 {
+    margin-bottom: 5px;
+}
+.hebergTitle {
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.imgHeberg1 {
+    background-image: url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg") ;   /* Ne pas oublier les guillemets */
+    background-size: cover; /*img // taille element */
+    background-position: center;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imgHeberg2 {
+    background-image: url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg") ;   
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imgHeberg3 {
+    background-image: url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg") ;   
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imgHeberg4 {
+    background-image: url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;   
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imgHeberg5 {
+    background-image: url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") ;   
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imgHeberg6 {
+    background-image: url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") ;   
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.stars {
+    margin-bottom: 5px;
+}
+
+/*CONTENU LES PLUS POPULAIRES*/
+
+.blockPop {
+    
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    flex: 1;
+    margin-left: 20px;
+    padding: 30px;
+}
+
+.popTitle h2 {
+    margin-bottom: 30px;
+}
+
+.popIcon {
+    margin-right: 5px;
+}
+
+.casePop {
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+    padding: 2% 0% 2% 2%;
+    box-shadow: 2px 2px 2px #e9e8e8;
+}
+
+/*zoom survol*/
+.casePop:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.casePopSolo {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.casePop12 {
+    margin-bottom: 20px;
+}
+
+.imgPop1 {
+    background-image: url("../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 160px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.imgPop2 {
+    background-image: url("../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 160px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.imgPop3 {
+    background-image: url("../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: left;
+    width: 40%;
+    height: 160px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+/*CONTENU ACTIVITES*/
+.activity {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blockActivity {
+    width: 100%;
+    height: 650px;
+}
+
+.flexBetweenActi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockActivity2356 {
+    width: 23%;
+    height: 650px;
+}
+
+.imgActivity1 {
+    background-image: url("../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 580px;
+}
+
+.imgActivity2 {
+    background-image: url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 300px;
+}
+
+.imgActivity3 {
+    background-image: url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 160px;
+}
+
+.imgActivity4 {
+    background-image: url("../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 580px;
+}
+
+.imgActivity5 {
+    background-image: url("../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 230px;
+}
+
+.imgActivity6 {
+    background-image: url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 230px;
+}
+
+/*réglages des blocs activités */
+.caseActivity {
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    width: 23%;
+}
+
+/*effet zoom + opacité 14*/
+.caseActivity:hover {
+    cursor: pointer;
+    opacity: .5;
+    transform: scale(1.1);
+
+}
+
+.caseActivity23 {
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/*effet zoom + opacité 23*/
+.caseActivity23:hover{
+    cursor: pointer;
+    opacity: .5;
+    transform: scale(1.1);
+}
+
+
+.caseActivity56 {
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/*effet zoom + opacité 56*/
+.caseActivity56:hover {
+    cursor: pointer;
+    opacity: .5;
+    transform: scale(1.1);
+}
+
+
+/*reglage titre activités  !MODE OFF!*/
+.activityTitle {
+    height: 70px;
+}
+
+.activityTitlePlace {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5%;
+    width: 95%;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+/*TABLETTE*/
+@media screen and (max-width: 992px) {
+
+/*GENERAL*/
+
+    .container {
+        max-width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+/*LOGO*/
+    .logoBooki {
+        width: 96%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-left: 20px;
+    }
+
+/*NAV*/
+    .flexBetweenNav {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .flexCenterNav{
+        display: block;
+    }
+
+    .sizeLinks {
+        width: 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 30px;
+    }
+    
+    .sizeLinksMobil {
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .flexBetweenNav12 {
+        width: 100%;    
+    }
+
+    .borderNav {
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+    }
+
+    .borderNav:hover, .active {
+        border-bottom: 3px solid #0065fc;
+        border-top: none;
+    }
+    .find {
+        margin-left: 20px;
+        margin-right: auto;     
+    }
+    
+    
+/*RECHERCHE*/
+
+
+    .researchBox {
+        position: relative;
+        margin-left: 20px;
+    }
+
+
+    .researchBar {
+        width: 280px;
+        height: 49px;
+    }
+
+    .buttonResearch {
+        border: none;
+        border-radius: 15px 15px 15px 15px;
+        background-color: #0065fc;
+        color: white;
+        cursor: pointer;
+        
+    }
+    
+/*FILTRES*/
+
+    .filters {
+        flex-wrap: wrap;
+    }
+    
+    .filters h3 {
+        margin-left: 20px;
+    }   
+    .filters ul {
+        margin: unset;
+    }
+    .borderFilters {
+        height: 50px;
+        border: 2px solid #F2F2F2;
+        border-radius: 25px; 
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+
+    .flexBetweenFilters {
+        display: flex;
+       align-items: flex-start;
+   
+    }
+
+    .marginFilters {
+        margin-top: 0px;
+    }
+    
+
+/*CONTENU HEBERGEMENT*/
+
+    #hebergements {
+        margin-left: -20px;
+    }
+    .flexAroundHeberg {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .caseHeberg {
+        width: 90%;
+        height: 650px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 20px;
+    }
+
+    .caseHebergSolo {
+        width: 48%;
+        height: 190px;
+        background-color: white;
+        padding: 1%;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px #e9e8e8;
+        line-height: 2px;
+        white-space:nowrap; 
+        overflow:hidden;
+        
+    }
+
+    .blockHeberg {
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .imgHeberg1, .imgHeberg2, .imgHeberg3, .imgHeberg4, .imgHeberg5, .imgHeberg6 {
+        height: 110px;
+        width: 100%;
+    }
+
+    .caseHebergSolo:hover {
+        cursor: pointer;
+        transform: scale(1);
+        opacity: .5;
+    }
+    
+    #afficher {
+        margin-left: 0px;
+    }
+   
+/*CONTENU POP*/
+
+    .blockPop {
+        flex: none;
+        width: 92%;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .casePop {
+        
+        border-radius: 15px;
+        background-color: white;
+        padding: 1% 0% 1% 1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .popTitle {
+        margin-left: 5%;
+        margin-right: 4%;
+    }
+  
+    
+
+    .imgPop1, .imgPop2, .imgPop3 {
+        height: 135px;
+    }
+
+/*ACTIVITES*/
+
+    #activités {
+        margin-left: 5%;
+    }
+
+    .activity{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .flexBetweenActi {
+        display: block;
+    }
+
+    .flexColumnCenter {
+        display: block;
+    }
+   
+    .blockActivity  {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .blockActivity2356 {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caseActivity, .caseActivity23, .caseActivity56 {
+        width: 100%;
+        height: 190px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px #e9e8e8;
+        line-height: 2px;
+        white-space:nowrap; 
+        overflow:hidden;
+        margin-bottom: 20px;
+    }
+
+    .caseActivity:hover {
+        cursor: pointer;
+        opacity: .5;
+        transform: scale(1);
+    }
+    
+    .caseActivity23:hover{
+        cursor: pointer;
+        opacity: .5;
+        transform: scale(1);
+    }
+ 
+    
+/*effet zoom + opacité 56*/
+    .caseActivity56:hover {
+        cursor: pointer;
+        opacity: .5;
+        transform: scale(1);
+    }
+    .imgActivity1, .imgActivity2, .imgActivity3, .imgActivity4, .imgActivity5, .imgActivity6 {
+        height: 110px;
+        background-position: center;
+    }
+/*FOOTER*/
+
+    .flexBetweenFooter {
+        display: block;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .sizeFooterBlock {
+        margin-left: 5%;
+        padding-top: 20px;
+    }
+
+    .flexStratLog {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*GENERAL*/
+
+    .container {
+        max-width: 767px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*LOGO*/
+    .logoBooki {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-left: 30px;
+    }
+
+    /*RECHERCHER*/
+    .researchBox{
+        width: 95%;
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    #buttonResearch {
+        display: none;
+    }
+
+    #iconGlass {
+        display: block;
+        position: absolute;
+        right: 0px;
+        border-radius: 15px;
+        top: 0px;
+    }
+
+    /*TROUVER*/
+    .findLine {
+        width: 92%;
+        margin-left: 20px;
+    }
+    /*HERBERGEMENTS*/
+    .caseHebergSolo {
+        width: 100%;
+    }
+    /*FILTRES*/
+    .filters h3 {
+        margin-left: 20px;
+    }
+    .filters ul {
+        margin: unset;
+        margin-left: -15px;
+    }
+
+    /*POPULAIRES*/
+    .blockPop {
+        width: 84%;
+    }
+}
